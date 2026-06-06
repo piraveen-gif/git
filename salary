@@ -1,0 +1,3 @@
+salary=float(input("Enter your salary :"))
+print(f"Your salar is:{salary}")
+
