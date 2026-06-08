@@ -1,3 +1,13 @@
 salary=float(input("Enter your salary :"))
-print(f"Your salar is:{salary}")
-
+if 100000<salary<=1000000:
+    print(f"Your salary is:{salary} ")
+    print(f"your Tax is :{salary*0.2}")
+    print(f"your net salary is :{salary -salary*0.2}")
+elif salary>1000000:  
+    print(f"Your salary is:{salary} ")
+    print(f"your Tax is :{salary*0.3}")
+    print(f"your net salary is :{salary -salary*0.3}")
+else: 
+    print(f"Your salary is:{salary}")
+    print("you don't need to pay tax")
+    print(f"your net salary is :{salary}")
